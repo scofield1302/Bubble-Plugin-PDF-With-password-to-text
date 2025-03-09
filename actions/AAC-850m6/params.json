@@ -1,0 +1,39 @@
+{
+    "category": "plugins",
+    "display": "Convert PDF to text",
+    "fields": {
+        "AAD": {
+            "caption": "pdf_password",
+            "doc": "The password to open the PDF document.",
+            "editor": "DynamicValue",
+            "name": "pdf_password",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "pdf_url",
+            "doc": "The PDF URL",
+            "editor": "DynamicValue",
+            "name": "pdf_url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "text",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "error",
+            "name": "error_message",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

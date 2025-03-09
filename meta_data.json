@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "PDF"
+    },
+    "data_tracked": false,
+    "description": "With thing plugin you can conver PDF documents (with or without password) to text.",
+    "image": "//meta-q.cdn.bubble.io/f1740601815179x371790950522503230/pdf-to-txt.png",
+    "license": "open_source",
+    "name": "PDF (With password) to text",
+    "sa_node_version": 18
+}
